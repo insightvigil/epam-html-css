@@ -1,0 +1,33 @@
+.presentation {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+  color: #6e4b32;
+
+  .presentation_text {
+    flex: 1;
+
+    p {
+      margin-top: 2.4rem;
+      max-width: 55rem;
+    }
+
+    button {
+      margin-top: 2.4rem;
+    }
+  }
+
+  .presentation_image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      max-width: 32.5rem;
+      height: auto;
+    }
+  }
+}

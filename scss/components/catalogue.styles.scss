@@ -1,0 +1,61 @@
+.catalogue {
+  margin-top: 8rem;
+  color: #6f4e37;
+
+  h2 {
+    text-align: center;
+  }
+
+  > p {
+    margin-top: 1.2rem;
+    text-align: center;
+    max-width: 60rem;
+    margin-inline: auto;
+  }
+
+  .catalogue_grid {
+    margin-top: 4rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.4rem;
+
+    .catalogue_card {
+      border: 1px solid #f0d9c7;
+      border-radius: 1.2rem;
+      overflow: hidden;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .card_description {
+        background-color: hsla(29, 72%, 94%, 0.66);
+        padding: 2rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+
+        h3 {
+          margin: 0;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        strong {
+          font-size: 2rem;
+        }
+
+        button {
+          margin-top: .8rem;
+        }
+      }
+    }
+  }
+}

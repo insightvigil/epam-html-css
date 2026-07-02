@@ -1,0 +1,68 @@
+.footer {
+  background:
+    linear-gradient(
+      rgba(69, 39, 8, 0.85),
+      rgba(69, 39, 8, 0.85)
+    ),
+    url("/assets/fotter_image.png");
+
+  color: #fff;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 5rem;
+
+  .footer_brand {
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin-bottom: 3rem;
+      line-height: 1.8;
+    }
+
+    .footer_social {
+      display: flex;
+      gap: 1.6rem;
+
+      list-style: none;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        font-size: 2.2rem;
+      }
+    }
+  }
+
+  .footer_links,
+  .footer_contact {
+
+    h3 {
+      margin-bottom: 2.4rem;
+    }
+
+    ul {
+      list-style: none;
+
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .footer_contact {
+    font-style: normal;
+
+    address {
+      font-style: normal;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.order-now {
+  margin-top: 8rem;
+  padding-block: 8rem;
+  background: linear-gradient(rgba(96, 58, 17, 0.75), rgba(96, 58, 17, 0.75)), url("/assets/order-now-background.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+  color: #fff;
+}
+.order-now .order-now__content {
+  flex: 1;
+}
+.order-now .order-now__content h2 {
+  width: 100%;
+  max-width: 55rem;
+}
+.order-now .order-now__content p {
+  width: 100%;
+  max-width: 50rem;
+  margin-top: 2.4rem;
+}
+.order-now .order-now__content button {
+  margin-top: 2.4rem;
+}
+.order-now .order-now_image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-now .order-now_image img {
+  width: 100%;
+  max-width: 38rem;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .order-now {
+    gap: 4rem;
+  }
+  .order-now .order-now_image img {
+    max-width: 32rem;
+  }
+}
+@media (max-width: 768px) {
+  .order-now {
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+  }
+  .order-now .order-now_content {
+    order: 1;
+  }
+  .order-now .order-now_content h2,
+  .order-now .order-now_content p {
+    max-width: 100%;
+  }
+  .order-now .order-now_image {
+    order: 2;
+  }
+  .order-now .order-now_image img {
+    max-width: 24rem;
+  }
+}
+
+/*# sourceMappingURL=order-now.styles.css.map */

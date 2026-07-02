@@ -1,0 +1,138 @@
+.reviews {
+  margin-top: 8rem;
+  color: #6f4e37;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.reviews .reviews_header h2 {
+  margin-bottom: 1.2rem;
+}
+.reviews .reviews_header p {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+.reviews .reviews_slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 6rem;
+}
+.reviews .reviews_card {
+  width: 100%;
+  max-width: 95rem;
+  padding: 6rem 8rem;
+  background: #fff9f1;
+  border: 1px solid #f2dcc8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+.reviews .reviews_card .reviews_quote {
+  align-self: flex-start;
+  font-size: 10rem;
+  line-height: 1;
+  color: #6f4e37;
+}
+.reviews .reviews_card .reviews_text {
+  max-width: 70rem;
+  line-height: 2;
+}
+.reviews .reviews_card h3 {
+  margin: 0;
+  font-size: 3rem;
+}
+.reviews .reviews_card span {
+  color: #9b7d63;
+}
+.reviews .reviews_card img {
+  width: 11rem;
+  height: 11rem;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+.reviews .reviews_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 1.2rem;
+  background: #f9c06a;
+  font-size: 2.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.reviews .reviews_button:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+.reviews .reviews_button--left {
+  left: 0;
+}
+.reviews .reviews_button--right {
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  .reviews .reviews_slider {
+    padding-inline: 4rem;
+  }
+  .reviews .reviews_card {
+    padding: 5rem 4rem;
+  }
+  .reviews .reviews_button {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .reviews .reviews_slider {
+    flex-direction: column;
+    gap: 2.4rem;
+    padding-inline: 0;
+  }
+  .reviews .reviews_card {
+    padding: 4rem 2.4rem;
+  }
+  .reviews .reviews_card .reviews_quote {
+    font-size: 7rem;
+  }
+  .reviews .reviews_card .reviews_text {
+    line-height: 1.8;
+  }
+  .reviews .reviews_button {
+    position: static;
+    transform: none;
+    width: 5rem;
+    height: 5rem;
+  }
+  .reviews .reviews_button:hover {
+    transform: scale(1.05);
+  }
+}
+@media (max-width: 480px) {
+  .reviews .reviews_card {
+    padding: 3rem 2rem;
+  }
+  .reviews .reviews_card .reviews_quote {
+    font-size: 5rem;
+  }
+  .reviews .reviews_card h3 {
+    font-size: 2.4rem;
+  }
+  .reviews .reviews_button {
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=reviews.styles.css.map */

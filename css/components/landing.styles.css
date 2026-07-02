@@ -1,0 +1,37 @@
+.landing {
+  background: url("/assets/landing-coffee_image.png") center/cover no-repeat;
+  min-height: 100vh;
+}
+.landing header nav {
+  padding: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.landing header nav .links ul {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+.landing header nav .login {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.landing .landing-text {
+  max-width: 60rem;
+  margin-top: 8rem;
+}
+.landing .landing-text h1 {
+  font-size: clamp(5rem, 10vw, 12rem);
+  font-style: italic;
+  line-height: 1;
+}
+.landing .landing-text p {
+  margin: 2rem 0 2.4rem;
+  max-width: 45rem;
+}
+
+/*# sourceMappingURL=landing.styles.css.map */

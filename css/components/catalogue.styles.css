@@ -1,0 +1,51 @@
+.catalogue {
+  margin-top: 8rem;
+  color: #6f4e37;
+}
+.catalogue h2 {
+  text-align: center;
+}
+.catalogue > p {
+  margin-top: 1.2rem;
+  text-align: center;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+.catalogue .catalogue_grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.4rem;
+}
+.catalogue .catalogue_grid .catalogue_card {
+  border: 1px solid #f0d9c7;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+.catalogue .catalogue_grid .catalogue_card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.catalogue .catalogue_grid .catalogue_card .card_description {
+  background-color: hsla(29, 72%, 94%, 0.66);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.catalogue .catalogue_grid .catalogue_card .card_description h3 {
+  margin: 0;
+}
+.catalogue .catalogue_grid .catalogue_card .card_description p {
+  margin: 0;
+}
+.catalogue .catalogue_grid .catalogue_card .card_description strong {
+  font-size: 2rem;
+}
+.catalogue .catalogue_grid .catalogue_card .card_description button {
+  margin-top: 0.8rem;
+}
+
+/*# sourceMappingURL=catalogue.styles.css.map */

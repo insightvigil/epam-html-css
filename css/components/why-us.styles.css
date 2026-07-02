@@ -1,0 +1,36 @@
+.why-us {
+  margin-top: 8rem;
+  text-align: center;
+  color: #6f4e37;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.why-us .why-us_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.4rem;
+}
+.why-us .why-us_grid .why-us_card {
+  background-color: #fff9f1;
+  border: 1px solid #f0d9c7;
+  border-radius: 1.2rem;
+  min-height: 28.4rem;
+  padding: 3.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+.why-us .why-us_grid .why-us_card img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+.why-us .why-us_grid .why-us_card h3,
+.why-us .why-us_grid .why-us_card p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=why-us.styles.css.map */

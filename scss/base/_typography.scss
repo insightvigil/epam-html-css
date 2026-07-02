@@ -1,0 +1,33 @@
+// Font families
+$font-primary: "Playfair Display", serif;
+$font-secondary: "Clicker Script", cursive;
+$font-body: "Poppins", sans-serif;
+
+// Base typography
+body {
+  font-family: $font-body;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+// Links and form controls inherit the font
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

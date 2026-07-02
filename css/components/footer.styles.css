@@ -1,0 +1,48 @@
+.footer {
+  background: linear-gradient(rgba(69, 39, 8, 0.85), rgba(69, 39, 8, 0.85)), url("/assets/fotter_image.png");
+  color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 5rem;
+}
+.footer .footer_brand h2 {
+  margin-bottom: 2rem;
+}
+.footer .footer_brand p {
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+.footer .footer_brand .footer_social {
+  display: flex;
+  gap: 1.6rem;
+  list-style: none;
+}
+.footer .footer_brand .footer_social a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+.footer .footer_links h3,
+.footer .footer_contact h3 {
+  margin-bottom: 2.4rem;
+}
+.footer .footer_links ul,
+.footer .footer_contact ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.footer .footer_links a,
+.footer .footer_contact a {
+  color: inherit;
+  text-decoration: none;
+}
+.footer .footer_contact {
+  font-style: normal;
+}
+.footer .footer_contact address {
+  font-style: normal;
+}
+
+/*# sourceMappingURL=footer.styles.css.map */

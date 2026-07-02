@@ -1,0 +1,51 @@
+.subscription {
+  margin-top: 8rem;
+  padding: 8rem 2rem;
+  background: linear-gradient(rgba(96, 56, 9, 0.65), rgba(96, 56, 9, 0.65)), url("/assets/order-now-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.subscription h2 {
+  max-width: 70rem;
+}
+.subscription p {
+  max-width: 60rem;
+}
+.subscription .subscription_form {
+  margin-top: 2rem;
+  width: min(100%, 70rem);
+  display: flex;
+  align-items: center;
+}
+.subscription .subscription_form input {
+  flex: 1;
+  padding: 1.8rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.8rem 0 0 0.8rem;
+  font-size: 1.6rem;
+}
+.subscription .subscription_form input::placeholder {
+  color: #9b7d63;
+}
+.subscription .subscription_form button {
+  padding: 1.8rem 3rem;
+  border: none;
+  border-radius: 0 0.8rem 0.8rem 0;
+  background: #f9c06a;
+  color: #6f4e37;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.subscription .subscription_form button:hover {
+  filter: brightness(0.95);
+}
+
+/*# sourceMappingURL=suscription.styles.css.map */
